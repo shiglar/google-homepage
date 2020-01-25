@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
+    <link rel='icon' href='http://aksteineye.com/wp-content/uploads/2015/08/new-google-favicon-logo.png' type='image/x-icon'/ >
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <nav>
-        <a href="/">Store</a>
-        <a href="/">About</a>
-        <a href="/">Gmail</a>
-        <a href="/">Images</a>
-        <button>Menu</button>
-        <button>Sign In</button>
+        <div class="header-left">
+            <a href="/">About</a>
+            <a href="/">Store</a>
+        </div>
+        <div class="header-right">
+            <a href="/">Gmail</a>
+            <a href="/">Images</a>
+            <button class="grid-menu">
+                <img src="img/menu.svg" width="17px" height="17px">
+            </button>
+            <button class="sign-in">Sign In</button>
+        </div>
     </nav>
     <div class="google-search">
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
         <form>
-            <input type="text">
+            <input class="google-search-text" type="text">
             <br />
-            <input type="submit" value="Google Search">
-            <input type="submit" value="I'm Feeling Lucky">
+            <input class="google-search-button" type="submit" value="Google Search">
+            <input class="google-search-button" type="submit" value="I'm Feeling Lucky">
         </form>
     </div>
     <footer>
