@@ -147,7 +147,76 @@ nav {
     border: .5px solid rgb(214, 214, 214);
     border-radius: 5px;
     height: 500px;
-    margin: 50px 0px 100px 0px;
+    margin: 50px 0px 30px 0px;
     text-align: center;
     color: rgb(121, 121, 121);
+}
+
+.google-page {
+    display: flex;
+    font-size: 34px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.G {
+    text-decoration: none;
+    color: teal;
+}
+
+.google-page .num {
+    font-size: 14px;
+    text-decoration: none;
+    color: teal;
+}
+
+.google-page num:hover {
+    text-decoration: underline;
+}
+
+.ooo {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(253, 197, 14);
+}
+
+.ooo:hover {
+    color: red;
+}
+
+.ooo:active {
+    color: red;
+}
+
+.gle {
+    text-decoration: none;
+}
+
+.gle .g {
+    color: teal;
+}
+
+.gle .l {
+    color: green;
+}
+
+.gle .e {
+    color: red;
+}
+
+.gle .arrow {
+    color: teal;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.gle .next {
+    color: teal;
+    font-size: 14px;
+    margin-left: 60px;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+    margin-bottom: -20px;
 }
