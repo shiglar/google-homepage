@@ -170,7 +170,7 @@ nav {
     color: teal;
 }
 
-.google-page num:hover {
+.google-page .num:hover {
     text-decoration: underline;
 }
 
@@ -219,4 +219,25 @@ nav {
 footer {
     background-color: rgb(238, 238, 238);
     margin-bottom: -20px;
+}
+
+.footer-items {
+    padding-left: 150px;
+    width: 630px;
+    line-height: 30px;
+}
+
+.footer-items ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-items a {
+    margin: 0px 15px 10px 0px;
+    color: rgb(131, 131, 131);
+    text-decoration: none;
+}
+
+.footer-items a:hover {
+    color: rgb(61, 61, 61);
 }
