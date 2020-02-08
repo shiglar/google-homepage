@@ -1,6 +1,6 @@
-hello = () => {
-    alert("hi");
-    window.location.replace("www.google.com");
+hi = () => {
+    window.location.href = 'google-search/index.html';
+    return false
 }
 
 lucky = () => {
